@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', True))
+IS_VERIFY = bool(environ.get('IS_VERIFY', ))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtoopen113")
 VERIFY2_URL = environ.get('VERIFY2_URL', "omegalinks.in")
 VERIFY2_API = environ.get('VERIFY2_API', "891487c57392d9edabc4adbbe22562513399a103")
