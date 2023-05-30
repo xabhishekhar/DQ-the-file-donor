@@ -195,7 +195,7 @@ Nᴀᴍᴇ - {}"""
 
 <b>
 ╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
+🔅 ownr insta :  <a href="https://instagram.com/abhi_the_machinegun?igshid=NTc4MTIwNjQ2YQ==">Tᴏᴜᴄʜ</a>
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
