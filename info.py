@@ -50,7 +50,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 # Others
 IS_VERIFY = bool(environ.get('IS_VERIFY', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtoveri")
-VERIFY2_URL = environ.get('VERIFY2_URL', "api.shareus.in")
+VERIFY2_URL = environ.get('VERIFY2_URL', "https://shareus.in/shortLink")
 VERIFY2_API = environ.get('VERIFY2_API', "fKw6k3wqCtdJFQvbvL4BKrpmJrW2")
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'omegalinks.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '891487c57392d9edabc4adbbe22562513399a103')
