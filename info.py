@@ -48,7 +48,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', False))
+IS_VERIFY = bool(environ.get('IS_VERIFY', True))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtoveri")
 VERIFY2_URL = environ.get('VERIFY2_URL', "https://shareus.in/shortLink")
 VERIFY2_API = environ.get('VERIFY2_API', "fKw6k3wqCtdJFQvbvL4BKrpmJrW2")
