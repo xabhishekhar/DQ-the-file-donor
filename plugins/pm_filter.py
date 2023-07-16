@@ -1606,7 +1606,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, [
         InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", url=f"https://t.me/{temp.U_NAME}"),
-        InlineKeyboardButton("✅ ᶜʰᵃⁿᵍᵉ ˡᵃⁿᵍᵘᵃᵍᵉ", callback_data=f"select_lang#{message.from_user.id}")
+        InlineKeyboardButton("🔈Cʜᴀɴɢᴇ Lᴀɴɢᴜᴀɢᴇ ", callback_data=f"select_lang#{message.from_user.id}")
     ])
 
     btn.insert(0, [
