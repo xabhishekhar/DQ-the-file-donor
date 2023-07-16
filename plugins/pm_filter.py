@@ -353,7 +353,7 @@ async def language_check(bot, query):
         
         btn.insert(0, [
             InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", url=f"https://t.me/{temp.U_NAME}"),
-            InlineKeyboardButton("👉 Lᴀɴɢᴜᴀɢᴇs 👈", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("✅ ᶜʰᵃⁿᵍᵉ ˡᵃⁿᵍᵘᵃᵍᵉ", callback_data=f"select_lang#{userid}")
         ])
 
         btn.insert(0, [
