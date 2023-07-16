@@ -241,7 +241,7 @@ async def next_page(bot, query):
             )
     btn.insert(0, [
         InlineKeyboardButton("! Sᴇɴᴅ Aʟʟ Tᴏ PM !", url=f"https://t.me/{temp.U_NAME}"),
-        InlineKeyboardButton("✅ ᶜʰᵃⁿᵍᵉ ˡᵃⁿᵍᵘᵃᵍᵉ", callback_data=f"select_lang#{req}")
+        InlineKeyboardButton("🔈Cʜᴀɴɢᴇ Lᴀɴɢᴜᴀɢᴇ ", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
