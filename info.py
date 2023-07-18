@@ -47,12 +47,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Rajappan")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Others
-IS_VERIFY = bool(environ.get('IS_VERIFY', True))
+IS_VERIFY = bool(environ.get('IS_VERIFY', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', "https://t.me/howtoopen113")
-VERIFY2_URL = environ.get('VERIFY2_URL', "omegalinks.in")
-VERIFY2_API = environ.get('VERIFY2_API', "891487c57392d9edabc4adbbe22562513399a103")
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.shareus.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'fKw6k3wqCtdJFQvbvL4BKrpmJrW2')
+VERIFY2_URL = environ.get('VERIFY2_URL', "easysky.in")
+VERIFY2_API = environ.get('VERIFY2_API', "b411f175ec537f9f6882da6d029aaf77b912a65c")
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'b411f175ec537f9f6882da6d029aaf77b912a65c')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
